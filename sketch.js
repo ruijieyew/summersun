@@ -32,7 +32,6 @@ function draw() {
   if (song.isPlaying()) {
     a = a + 0.05;
   }
-  console.log(a);
     noStroke();
   from = color(31,151,196);
   to = color(178,135,169);
