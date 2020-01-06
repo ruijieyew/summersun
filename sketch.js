@@ -18,6 +18,14 @@ function setup() {
   createCanvas(500,500);
 }
 
+function mousePressed(){
+  if (song.isPlaying()){
+    song.pause()
+  }
+  else{
+    song.play()
+  }
+}
 
 function draw() {
   if (song.isPlaying()) {
