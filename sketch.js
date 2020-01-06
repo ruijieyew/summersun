@@ -19,7 +19,6 @@ function setup() {
 }
 
 
-
 function draw() {
   if (song.isPlaying()) {
     a = a + 0.05;
@@ -34,11 +33,11 @@ function draw() {
   noStroke();
   var spectrum = fft.analyze();
   noStroke();
-  translate(width / 2, 0.5*a);
+  translate(width / 2, 0.48*a);
   textSize(13);
   textFont(fontBold);
   textAlign(CENTER);
-  var speed = 2;
+  var speed = 3;
   var characterSpace = 15;
   var lyrics = ["summer sun", "vincent chiang","when I see you far away","you drift in like the summer sun", 
                 "know that you're the one", "but by the time I see", 
