@@ -36,7 +36,7 @@ function draw() {
   textSize(13);
   textFont(fontBold);
   textAlign(CENTER);
-  var speed = 2.25;
+  var speed = 2.2;
   var characterSpace = 15;
   var lyrics = ["summer sun", "vincent chiang","when I see you far away","you drift in like the summer sun", 
                 "know that you're the one", "but by the time I see", 
