@@ -46,13 +46,12 @@ function draw() {
   textSize(13);
   textFont(fontBold);
   textAlign(CENTER);
-  var speed = 2.3;
+  var speed = 2;
   var characterSpace = 15;
   var lyrics = ["summer sun", "vincent chiang","when I see you far away","you drift in like the summer sun", 
                 "know that you're the one", "but by the time I see", 
                 "you're not here for me, for me", "so do me no wrong","if I've got no one",
-                "at least I'll have the summer sun", "shining on me", "bask in glory", "feel the warmth of the summer sun", "boy if you could see", "what you've done to me","I will always remember", 
-                "that you're the one in my heart", "you cry", "in this summer sun", 
+                "at least I'll have the summer sun", "shining on me", "bask in glory", "feel the warmth of the summer sun", "boy if you could see", "what you've done to me","I will always remember that you're the one in my heart", "you cry in this summer sun", 
                 "I leave you here to cry", "cry", "cry"]
   for (var i = 0; i < lyrics.length; i++) {
     text(lyrics[i],0, (height - (speed*a + 10)) + i*characterSpace)
