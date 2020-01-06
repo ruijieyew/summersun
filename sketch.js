@@ -18,15 +18,7 @@ function setup() {
   createCanvas(500,500);
 }
 
-function mousePressed() {
-  if (song.isPlaying()) {
-    // .isPlaying() returns a boolean
-    song.stop();
-  } else {
-    song.play();
-    a = 0;
-  }
-}
+
 
 function draw() {
   if (song.isPlaying()) {
