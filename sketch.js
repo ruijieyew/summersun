@@ -15,7 +15,7 @@ function setup() {
   fft = new p5.FFT();
   song.amp(0.2);
   // Patch the input to an volume analyzer
-  createCanvas(500, 650);
+  createCanvas(500,500);
 }
 
 function mousePressed() {
@@ -46,7 +46,7 @@ function draw() {
   textSize(13);
   textFont(fontBold);
   textAlign(CENTER);
-  var speed = 2.8;
+  var speed = 2.68;
   var characterSpace = 15;
   var lyrics = ["summer sun", "vincent chiang","when I see you far away","you drift in like the summer sun", 
                 "know that you're the one", "but by the time I see", 
