@@ -42,7 +42,7 @@ function draw() {
   noStroke();
   var spectrum = fft.analyze();
   noStroke();
-  translate(width / 2, 0.75*a);
+  translate(width / 2, 0.5*a);
   textSize(13);
   textFont(fontBold);
   textAlign(CENTER);
