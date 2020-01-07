@@ -41,11 +41,11 @@ function draw() {
   var spectrum = fft.analyze();
   noStroke();
   translate(width / 2, song.currentTime());
-  textSize(14);
+  textSize(15);
   textFont(fontBold);
   textAlign(CENTER);
   var speed = 1.67;
-  var characterSpace = 16;
+  var characterSpace = 18;
   var lyrics = ["summer sun", "vincent chiang","when I see you far away","you drift in like the summer sun", 
                 "know that you're the one", "but by the time I see", 
                 "you're not here for me, for me", "so do me no wrong","if I've got no one",
