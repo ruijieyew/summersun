@@ -15,7 +15,10 @@ function setup() {
   // create a new Amplitude analyzer
   fft = new p5.FFT();
   song.amp(0.2);
-  createCanvas(500,500);
+  var cnv = createCanvas(500,500);
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(x, y);
 }
 
 
@@ -38,11 +41,11 @@ function draw() {
   var spectrum = fft.analyze();
   noStroke();
   translate(width / 2, song.currentTime());
-  textSize(13);
+  textSize(14);
   textFont(fontBold);
   textAlign(CENTER);
   var speed = 1.67;
-  var characterSpace = 15;
+  var characterSpace = 16;
   var lyrics = ["summer sun", "vincent chiang","when I see you far away","you drift in like the summer sun", 
                 "know that you're the one", "but by the time I see", 
                 "you're not here for me, for me", "so do me no wrong","if I've got no one",
